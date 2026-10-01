@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About QuickNotes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>About QuickNotes</h2>
+      <p>
+        QuickNotes is a simple notes app for catching an idea the moment you have it. You type a note,
+        add it to your list, and see at a glance how many notes you have.
+      </p>
+
+      <section>
+        <h3>How to use QuickNotes</h3>
+        <ol>
+          <li>Go to the Home page and click the "New note" box.</li>
+          <li>Type your idea, for example "Revise HTML forms".</li>
+          <li>Press the "Add Note" button, or hit Enter.</li>
+          <li>Check the "Your notes" list to see your note, and the count above it.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Features</h3>
+        <ul class="features">
+          <li>Add a note in one step</li>
+          <li>See all your notes in a single list</li>
+          <li>A running count of how many notes you have</li>
+          <li>Works in any modern web browser</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Keyboard shortcuts</h3>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Shortcut</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><kbd>Enter</kbd></td>
+              <td>Add the note you have typed</td>
+            </tr>
+            <tr>
+              <td><kbd>Tab</kbd></td>
+              <td>Move to the next field or button</td>
+            </tr>
+            <tr>
+              <td><kbd>Shift</kbd> + <kbd>Tab</kbd></td>
+              <td>Move back to the previous field or button</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h3>Send feedback</h3>
+        <form id="feedback-form">
+          <p>
+            <label for="feedback-name">Name</label>
+            <input type="text" id="feedback-name" name="name" required />
+          </p>
+          <p>
+            <label for="feedback-email">Email</label>
+            <input type="email" id="feedback-email" name="email" required />
+          </p>
+          <p>
+            <label for="feedback-message">Message</label>
+            <textarea id="feedback-message" name="message" rows="5" cols="40" required></textarea>
+          </p>
+          <button type="submit">Send feedback</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
+</html>
