@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The hardest concept for me was how a system keeps working when many people use it at once. Writing HTML, CSS and JavaScript felt direct, because I could change a line and see the result. Ideas like caching, read replicas, queues and transactions were harder, because I could not see them happen. I overcame this by turning every idea into numbers and small examples. In the photo app and QuickNotes designs I worked out reads and writes per second first, and that showed me why a cache or a replica was needed instead of just memorising the names. Testing SQL myself, such as trying to insert the same seat twice and watching the database refuse it, made transactions and constraints finally make sense.
+
+For my capstone, I would improve the part where I explain the trade-offs. My first versions listed what each component does but said less about what it costs, and the feedback I received pointed me to explain why I chose something and what I gave up. I would also add a clearer failure plan for each component, and test my client code with more bad inputs and slow networks, not only the happy path.
+
+Next I want to learn how to build a real backend, so that my API client talks to a server I wrote myself instead of a practice API. That means picking a backend language, learning to use a database like PostgreSQL properly, and deploying it. After that I want to study security basics, such as login, tokens and protecting user data, because my work in fraud and compliance shows me every day how much it matters.
